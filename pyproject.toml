@@ -3,11 +3,14 @@ name = "fizz_buzz"
 version = "0.1.0"
 description = "FizzBuzz (for Hexlet`s interview)"
 authors = ["Adrian Carver <adrian.carver@yandex.ru>"]
-repository = "https://github.com/AdrianusWest/fizz_buzz"
+repository = "https://github.com/AdrianusWest/fizz_buzz_v2"
 classifiers = [
-  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10.4",
   "Natural Language :: English",
   "Environment :: Console"
+]
+packages = [
+  { include = "fizz_buzz_v2" },
 ]
 
 [tool.poetry.dependencies]
