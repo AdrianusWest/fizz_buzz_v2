@@ -1,4 +1,4 @@
-from fizz_buzz_v2.fizz_buzz import fizz_buzz
+from fizz_buzz_v2.fizz_buzz_v2 import fizz_buzz
 
 
 def test_fizz_buzz():
