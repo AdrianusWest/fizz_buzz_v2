@@ -30,5 +30,5 @@ jobs:
         env:
           CC_TEST_REPORTER_ID: ${{98d353ba0c1601446cca02eeefb3ed24bfb9b6b02d2f8046a2eeed37bbcafa39}}
         with:
-          coverageCommand: poetry run pytest --cov=fizz_buzz --cov-report xml
+          coverageCommand: poetry run coverage run -m pytest --cov=fizz_buzz --cov-report xml
           debug: true
