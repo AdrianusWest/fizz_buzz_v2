@@ -1,4 +1,4 @@
-name: fizz_buzz
+name: fizz_buzz_v2
 
 on:
   - push
