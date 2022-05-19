@@ -28,7 +28,7 @@ jobs:
           make test
       - uses: paambaati/codeclimate-action@v3.0.0
         env:
-          CC_TEST_REPORTER_ID: ${{a4b3fe4585c455616b060e6cae9afaea6a786e97a9a2d59199d51c2866486d9d}}
+          CC_TEST_REPORTER_ID: ${{98d353ba0c1601446cca02eeefb3ed24bfb9b6b02d2f8046a2eeed37bbcafa39}}
         with:
           coverageCommand: poetry run pytest --cov=fizz_buzz --cov-report xml
           debug: true
