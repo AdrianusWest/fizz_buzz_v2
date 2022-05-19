@@ -9,9 +9,6 @@ classifiers = [
   "Natural Language :: English",
   "Environment :: Console"
 ]
-packages = [
-  { include = "fizz_buzz_v2" },
-]
 
 [tool.poetry.dependencies]
 python = "^3.10"
