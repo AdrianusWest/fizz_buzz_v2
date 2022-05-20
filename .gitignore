@@ -4,5 +4,6 @@ dist
 .idea
 fizz_buzz_v2/__pycache__
 fizz_buzz_v2/scripts/__pycache__
+fizz_buzz_v2/.github/workflows/tests_run.ymltests_run.yml
 
 
