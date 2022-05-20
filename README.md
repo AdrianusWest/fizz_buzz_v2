@@ -5,19 +5,16 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/6b2436e1d810405bb673/test_coverage)](https://codeclimate.com/github/AdrianusWest/fizz_buzz_v2/test_coverage)
 
 
-Setup Instruction:
+### Setup Instruction:
 
 (pay attention to $PATH when setup!)
 
-git clone https://github.com/AdrianusWest/fizz_buzz_v2.git
+0. git clone https://github.com/AdrianusWest/fizz_buzz_v2.git
+1. cd ./fizz_buzz_v2
+2. make build
+3. make package-install
+4. fizz_buzz_v2
 
-cd ./fizz_buzz_v2
-
-make build
-
-make package-install
-
-fizz_buzz_v2
 
 ### Links
 
