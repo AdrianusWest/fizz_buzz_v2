@@ -8,6 +8,10 @@ jobs:
   build-and-test:
 
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [ 3.10.4 ]
+
     steps:
       - uses: actions/checkout@v3
       - name: Run tests
