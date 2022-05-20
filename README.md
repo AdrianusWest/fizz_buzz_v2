@@ -6,12 +6,17 @@
 
 
 Setup Instruction:
+
 (pay attention to $PATH when setup!)
 
 git clone https://github.com/AdrianusWest/fizz_buzz_v2.git
+
 cd ./fizz_buzz_v2
+
 make build
+
 make package-install
+
 fizz_buzz_v2
 
 ### Links
