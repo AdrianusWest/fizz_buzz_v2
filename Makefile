@@ -14,10 +14,7 @@ lint:
 	poetry run flake8 fizz_buzz_v2
 
 test:
-	poetry run pytest
-
-test-coverage:
-	poetry run pytest --cov
+	poetry poetry run pytest --cov=fizz_buzz_v2 --cov-report xml
 
 selfcheck:
 	poetry check

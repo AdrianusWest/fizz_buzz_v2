@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 import signal
+import sys
 
 import prompt
 
-from fizz_buzz_v2.fizz_buzz_v2 import fizz_buzz, sigint_handler
+from fizz_buzz_v2.fizz_buzz_v2 import fizz_buzz
 
 
 def main():
@@ -14,8 +15,12 @@ def main():
         print(fizz_buzz(input_number))
 
 
-signal.signal(signal.SIGINT, sigint_handler)
+def sigint_handler(signal, frame):
+    print('\nThe program is completed')
+    sys.exit(0)
 
+
+signal.signal(signal.SIGINT, sigint_handler)
 
 if __name__ == '__main__':
     main()
