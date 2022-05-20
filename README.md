@@ -2,7 +2,17 @@
 
 [![Github Actions Status](https://github.com/hexlet-boilerplates/python-package/workflows/Python%20CI/badge.svg)](https://github.com/AdrianusWest/fizz_buzz_v2/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/6d90c0b8ce7feb21d580/maintainability)](https://codeclimate.com/github/AdrianusWest/fizz_buzz_v2/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/6d90c0b8ce7feb21d580/test_coverage)](https://codeclimate.com/github/AdrianusWest/fizz_buzz_v2/test_coverage)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/6b2436e1d810405bb673/test_coverage)](https://codeclimate.com/github/AdrianusWest/fizz_buzz_v2/test_coverage)
+
+
+Setup Instruction:
+(pay attention to $PATH when setup!)
+
+git clone https://github.com/AdrianusWest/fizz_buzz_v2.git
+cd ./fizz_buzz_v2
+make build
+make package-install
+fizz_buzz_v2
 
 ### Links
 

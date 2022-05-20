@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import signal
 import sys
-
 import prompt
 
 from fizz_buzz_v2.fizz_buzz_v2 import fizz_buzz
