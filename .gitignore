@@ -2,5 +2,7 @@
 .venv
 dist
 .idea
-fizz_buzz/__pycache__
+fizz_buzz_v2/__pycache__
+fizz_buzz_v2/scripts/__pycache__
+
 

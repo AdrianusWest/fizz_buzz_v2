@@ -18,10 +18,11 @@ pytest-cov = "^3.0.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
+pytest-cov = "^3.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-fizz_buzz_v2 = "fizz_buzz_v2.fizz_buzz_v2:main"
+fizz_buzz_v2 = "fizz_buzz_v2.scripts.fizz_buzz_v2:main"
