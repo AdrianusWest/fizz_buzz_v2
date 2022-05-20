@@ -25,3 +25,7 @@ This project was built using these tools:
 | [poetry](https://poetry.eustace.io/)          | "Python dependency management and packaging made easy"                                                                                                                                                                                                     |
 | [PyTest](https://pytest.org)                  | "A mature full-featured Python testing tool"                                                                                                                                                                                                               |
 | [flake8](https://github.com/pycqa/flake8)     | "flake8 is a python tool that glues together pycodestyle, pyflakes, mccabe, and third-party plugins to check the style and quality of some python code. "                                                                                                  |
+
+
+
+[![asciicast](https://asciinema.org/a/UnnaySs4OSObvfN5I8TG0ABDT.svg)](https://asciinema.org/a/UnnaySs4OSObvfN5I8TG0ABDT)
