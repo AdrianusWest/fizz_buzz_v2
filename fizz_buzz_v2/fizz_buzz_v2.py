@@ -1,6 +1,3 @@
-import sys
-
-
 def fizz_buzz(input_number):
     if input_number % 15 == 0:
         return 'FizzBuzz'
