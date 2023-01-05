@@ -5,7 +5,7 @@ description = "FizzBuzz (for Hexlet`s interview)"
 authors = ["Adrian Carver <adrian.carver@yandex.ru>"]
 repository = "https://github.com/AdrianusWest/fizz_buzz_v2"
 classifiers = [
-  "Programming Language :: Python :: 3.10.4",
+  "Programming Language :: Python :: 3.10",
   "Natural Language :: English",
   "Environment :: Console"
 ]
